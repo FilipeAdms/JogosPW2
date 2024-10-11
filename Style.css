@@ -15,6 +15,21 @@ main article h1 {
     text-align: center;
 }
 
+main article ul {
+    list-style-type: none;
+}
+
+main article ul li p{
+    padding-left: 10px;
+}
+
 main {
     color: white;
+}
+
+.Questao {
+    border: 1px solid #222;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
