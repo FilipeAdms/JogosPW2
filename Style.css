@@ -1,5 +1,6 @@
 :root{
 --fundo-principal-quizz: #666;
+--fundo-Questoes-quizz: #444;
 }
 
 
@@ -13,23 +14,36 @@ nav {
 
 main article h1 {
     text-align: center; 
+    padding: 25px 0px;
 }
 
-main article ul {
+main article form ul {
     list-style-type: none;
 }
-
-main article ul li p{
+main article form ul li {
+    font-size: 20px;
+}
+main article form ul li p{
+    font-size: 25px;
     padding-left: 10px;
 }
-
+main article form button{
+    margin: 40px;
+    font-size: 30px;
+    border-radius: 25px;
+    width: 200px;
+}
 main {
     color: white;
 }
 
 .Questao {
     border: 1px solid #222;
+    background-color: var(--fundo-Questoes-quizz);
     border-radius: 10px;
     margin-bottom: 20px;
     padding-bottom: 10px;
+}
+.resposta {
+    font-size: 25px;
 }
