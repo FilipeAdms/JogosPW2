@@ -1,11 +1,9 @@
 :root{
---fundo-principal-quizz: #666;
 --fundo-Questoes-quizz: #444;
 }
 
-
 body {
-    background-color: var(--fundo-principal-quizz);
+    background-image: url("/Homescreen/Images/bg.jpg");
 }
 
 nav {
